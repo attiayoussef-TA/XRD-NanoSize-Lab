@@ -9,7 +9,7 @@
 #include <Eigen/Dense>
 
 
-using namespace Eigen
+using namespace Eigen;
 using namespace std;
 
 /* ===================== CSV LOADING ===================== */
@@ -208,3 +208,4 @@ void analyze(const string& label,const string& file,double wavelength){
     cout<<"Crystallite size                 : "<<size<<" Å\n";
     cout<<"Statistical Residual Anomaly     : "<<anomaly<<"\n";
 }
+
